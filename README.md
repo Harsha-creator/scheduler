@@ -3,6 +3,7 @@ appointments ie. 1-2, 2-3, 3-4 and   to show open slots of appointments for an o
 open slots and show as 4-14 instead of 4-5, 5-6 .. 13-14.
 
 Running the Application:
+  Download clone this repository to local system and then follow the below steps
   Start MongoDB:
    Ensure your MongoDB server is running.(Default my Mongo URI is hardcoded, change the spring.data.mongodb.uri in Applications.properties file to your Mongo Uri)
    
