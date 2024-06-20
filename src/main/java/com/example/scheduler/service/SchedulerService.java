@@ -88,8 +88,10 @@ public class SchedulerService {
         int start = -1;
         for (int i = 0; i < 24; i++) {
             if (!slots[i] && start == -1) {
+                //Get the start hour of free time
                 start = i;
             } else if (slots[i] && start != -1) {
+                //Get the end hour of free time
                 openSlots.add(start + "-" + i);
                 start = -1;
             }
